@@ -24,14 +24,14 @@ public:
     }
     ListNode* doubleIt(ListNode* head) {
         head = reverse(head);
-        ListNode *temp = new ListNode(INT_MAX),*dummy = temp;
+        ListNode *temp = head;
         int carry=0;
-        while(head != NULL) {
+        while(temp != NULL) {
 
-             int val = 2*(head->val) + carry;
-             temp->next = new ListNode(val%10);
-             head = head->next;
+             int val = 2*(temp->val) + carry;
+             temp->val = val%10;
              carry = val/10;
+             if(temp->next == NULL) break;
              temp = temp ->next;
         }
         while(carry>0) {
@@ -39,6 +39,6 @@ public:
             temp = temp->next;
             carry/=10;
         }
-        return reverse(dummy->next);
+        return reverse(head);
     }
 };
