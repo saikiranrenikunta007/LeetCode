@@ -8,9 +8,8 @@ public:
               vector<int>temp;
               for(int j=0;j<n-2;++j) {
                    int mx = INT_MIN;
-                   int row=i,col=j;
-                   for(int k=row;k<row+3;++k){
-                       for(int l=col;l<col+3;++l){
+                   for(int k=i;k<i+3;++k){
+                       for(int l=j;l<j+3;++l){
                            mx = max(mx,mat[k][l]);
                        }
                    }
