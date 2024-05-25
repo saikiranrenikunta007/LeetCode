@@ -18,9 +18,8 @@ public:
                 if (d.find(suffix) != d.end()) {
                     vector<vector<string>> l = solve(s.substr(0, i));
                     for (auto& x : l) {
-                        vector<string> tmp = x;
-                        tmp.push_back(suffix);
-                        memo[s].push_back(tmp);
+                        x.push_back(suffix);
+                        memo[s].push_back(x);
                     }
                 }
             }
