@@ -5,8 +5,29 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0518-coin-change-ii](https://github.com/saikiranrenikunta007/LeetCode/tree/master/0518-coin-change-ii) |
+| [1396-count-servers-that-communicate](https://github.com/saikiranrenikunta007/LeetCode/tree/master/1396-count-servers-that-communicate) |
 ## Dynamic Programming
 |  |
 | ------- |
 | [0518-coin-change-ii](https://github.com/saikiranrenikunta007/LeetCode/tree/master/0518-coin-change-ii) |
+## Depth-First Search
+|  |
+| ------- |
+| [1396-count-servers-that-communicate](https://github.com/saikiranrenikunta007/LeetCode/tree/master/1396-count-servers-that-communicate) |
+## Breadth-First Search
+|  |
+| ------- |
+| [1396-count-servers-that-communicate](https://github.com/saikiranrenikunta007/LeetCode/tree/master/1396-count-servers-that-communicate) |
+## Union Find
+|  |
+| ------- |
+| [1396-count-servers-that-communicate](https://github.com/saikiranrenikunta007/LeetCode/tree/master/1396-count-servers-that-communicate) |
+## Matrix
+|  |
+| ------- |
+| [1396-count-servers-that-communicate](https://github.com/saikiranrenikunta007/LeetCode/tree/master/1396-count-servers-that-communicate) |
+## Counting
+|  |
+| ------- |
+| [1396-count-servers-that-communicate](https://github.com/saikiranrenikunta007/LeetCode/tree/master/1396-count-servers-that-communicate) |
 <!---LeetCode Topics End-->
